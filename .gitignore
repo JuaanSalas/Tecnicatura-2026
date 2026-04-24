@@ -1,3 +1,5 @@
+.idea/
+*.swp
 /java/Leccion 1/HolaMundo/nbproject/private/
 /java/Leccion 1/HolaMundo/build/
 /java/Leccion 2/nbproject/private/
