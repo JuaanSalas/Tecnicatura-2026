@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class HolaMundo {
 
     public static void main(String[] args) {
-        System.out.println("Hola mundo desde java");
+        /* System.out.println("Hola mundo desde java");
 
         int miVariable = 10;
         System.out.println(miVariable);
@@ -48,7 +48,25 @@ public class HolaMundo {
         System.out.println("usuario2 = " + usuario2);
         System.out.println("Escriba el titulo: ");
         var titulo2 = entrada.nextLine();
-        System.out.println("Resultado: "+titulo2+" "+usuario2 );
+        System.out.println("Resultado: "+titulo2+" "+usuario2 );*/
 
+        // Tipos primitivos tipo booleano
+        /*var varBool = false;
+        System.out.println("varBool = " + varBool);
+
+        if (varBool) {
+            System.out.println("La bandera es verde");
+        } else {
+            System.out.println("La bandera es roja");
+        }
+        // Algoritmo : ¿Es mmayor de edad?
+        var edad = 18; //Literal tener presente la inferencia de tipos
+        var adulto = edad >= 18; //Exprecion booleana
+        if (adulto) {
+            System.out.println("Es mayor de edad");
+        } else {
+            System.out.println("Es menor de edad");*/
+        }
+    
     }
 }
