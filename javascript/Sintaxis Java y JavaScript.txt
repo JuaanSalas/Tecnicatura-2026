@@ -1,22 +1,32 @@
 Sintaxis similares entre Java y JavaScript
 
-Operadores Simplificados
+Operadores Simplificados/Compuestos
 +=
 -=
 *
 /=
+%=
+**=
+
 Operadores Aritméticos
 +
 -
 *
 /
+%	Residuo
+**	Exponente
+
 Operadores de Asignación
 =
-Operadores de Comparación
-==
+
+Operadores de Comparación (Bool)
+==	Revisa el contenido sin importar el tipo de dato
+? 	Revisa el contenido y también el tipo (triple igual, se le llama op. de 	igualdad estricta)
+
 Documentar
 //               Para una linea de comentario
 /* */            Para múltiples lineas de comentarios
+
 Secuencias de Escape
 \’     Mostrar comillas simples dentro de una cadena en la salida de información
 \”     Mostrar comillas dobles dentro de una cadena en la salida de información
@@ -29,6 +39,17 @@ Secuencias de Escape
 
 Operador de Aumento
 + +
-Operadores de Decremento
+
+Operador de Decremento
 - -
+
+Operador Distinto/Diferente (Bool)
+!=	Comprueba valores sin revisar el tipo de dato
+!==	Comprueba valores y también el tipo de dato
+
+Operadores Relacionales (Bool)
+<
+>
+<=
+>=
 

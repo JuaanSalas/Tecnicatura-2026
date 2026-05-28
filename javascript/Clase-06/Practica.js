@@ -12,3 +12,16 @@ juntos = 78 + 17 + nombre; //Primero hace la suma y luego concatena todo como st
 console.log(juntos);
 nombre += apellido; //Concatenacion usando el operador simplificado
 console.log(nombre);
+
+// Let y const
+let nombre2 = "Pedro";
+console.log(nombre2);
+
+const apellido2 = "Suarez";
+console.log(apellido2);
+let x, y; //Se pueden crear varias variables dentro de una misma linea
+x = 17, y = 21; //Se puede hacer asignaciones de las variables en una misma linea
+let z = x + y; //Se asigna el valor de una operacion
+console.log(z);
+let _1num = 34; //No utilizar numeros al inicio del nombre de una variable
+console.log(_1num);
