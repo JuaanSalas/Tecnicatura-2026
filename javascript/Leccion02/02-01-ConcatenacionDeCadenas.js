@@ -24,4 +24,4 @@ x = 17, y = 21; //Se puede hacer asignaciones de las variables en una misma line
 let z = x + y; //Se asigna el valor de una operacion
 console.log(z);
 let _1num = 34; //No utilizar numeros al inicio del nombre de una variable
-console.log(_1num);
+console.log(_1num); // bla bla
