@@ -1,4 +1,4 @@
-# Ejercicio 1: Estaciones del año
+# Ejercicio 16: Estaciones del año
 mes = int(input("Ingrese un mes del año: "))
 if mes >= 1 and mes <= 3:
     print("Estacion: Verano")

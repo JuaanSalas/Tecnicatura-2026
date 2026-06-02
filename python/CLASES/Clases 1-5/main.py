@@ -9,6 +9,7 @@ print(miVariable)
 x = 10
 y = 2
 z = x + y
+
 #Referencia de memoria:
 print(id(x))
 #Las literales se escriben:x = x072, la variable y = x816, z = x136
@@ -88,12 +89,6 @@ print(f'El resultado de la exponente es: {exponente}')
 '''
 
 '''
-alto = int(input("Proporciopne el alto del rectangulo: "))
-ancho = int(input("Proporcionne el ancho del rectangulo: "))
-area = alto * ancho
-perimetro = (alto + ancho) * 2
-print("Area: ",area)
-print("Perimetro: ",perimetro)
 '''
 
 '''
@@ -146,20 +141,3 @@ print(resultado)
 resultado = d >= b
 print(resultado)
 '''
-'''
-# Ejercicio para saber si un numero es par o impar
-numero = int(input("Digite un numero: "))
-print(f"El residuo del numero es: {numero % 2}")
-if numero % 2 == 0:
-    print(f"El numero {numero} es PAR")
-else:
-    print(f"El numero {numero} es IMPAR")
-'''
-
-# Ejercicio para saber si alguien es mayor o menor de edad
-mayorEdad = 18
-edad = int(input("Digite su edad: "))
-if edad >= mayorEdad:
-    print(f"Es mayor de edad: {edad}")
-else:
-    print(f"Es menor de edad: {edad}")

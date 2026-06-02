@@ -1,4 +1,4 @@
-# Ejercicio 2: Etapas de vida
+# Ejercicio 17: Etapas de vida
 edad = int(input("Ingrese su edad: "))
 if edad >= 0 and edad <= 10:
     print("La infancia es increible")

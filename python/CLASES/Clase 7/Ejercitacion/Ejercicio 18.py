@@ -1,4 +1,4 @@
-# Ejercicio 3: Sistema de calificaciones
+# Ejercicio 18: Sistema de calificaciones
 nota = int(input("Ingrese su nota: "))
 if nota == 9 or nota == 10:
     print("Su calificaion es: A")
