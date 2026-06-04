@@ -53,3 +53,7 @@ Operadores Relacionales (Bool)
 <=
 >=
 
+Operadores Logicos
+and ? &&
+or ? ||
+
