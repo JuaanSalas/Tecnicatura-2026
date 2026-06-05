@@ -154,13 +154,7 @@ cd class-git #Entramos para crear el README.md para este sector.
 
 touch README.md #Vamos a crear un archivo nuevo, md significa markdown y se pueden trabajar con editores de texto, este es un lenguaje que transforma el texto a html.
 
-Enlace a la documentación en GitHub de MARKDOWN
-
-Leemos la documentación para ir creando en README.md como lo enseña GitHub.
-
 code . #Abrimos VSC para editar el archivo.
-
-Empezamos a cargar lo visto en las clases anteriores (Comandos) en el README y pasamos a commitear
 
 git status
 
