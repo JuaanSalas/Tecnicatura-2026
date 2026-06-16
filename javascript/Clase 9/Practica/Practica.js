@@ -1,8 +1,8 @@
 // Evitar repetir un codigo
 // Dry don't repeat yoursefl
 
-// Version no recomendada
-let days = 3;
+// Version larga
+let days = 6;
 switch (days){
     case 1:
         days = "Lunes";
@@ -40,4 +40,4 @@ function getDay(n){
     }
     return days2[n-1];
 }
-console.log(getDay(6));
+console.log(getDay(3));

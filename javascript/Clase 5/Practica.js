@@ -1,10 +1,3 @@
-// Tipos de datos en Javascript
-/* 
-La sintaxis de documentacion en 
-Javascript es muy similar a la de Java,
-podriamos decir que es identica
-*/
-// Tipos de datos
 // Tipo string(cadena)
 var nombre = "Juan"; 
 console.log(nombre);
@@ -16,6 +9,7 @@ console.log(nombre);
 // Tipo number(numerico)
 var numero = 3000;
 console.log(numero);
+
 // Tipo objet(objeto)
 var objeto = {
     nomre: "Juan",
@@ -27,23 +21,23 @@ console.log(objeto);
 // Tipo boolean(booleano)
 var bandera = true;
 console.log(bandera);
+
 // Tipo function(funcion)
 function miFuncion(){}
-console.log(miFuncion);
+console.log(typeof miFuncion);
 
 // Tipo symbol(simbolo)
 var simbolo = Symbol("Mi simbolo");
 console.log(simbolo);
 
-// Tipo class(clase)
+// Tipo class (clase /es de tipo function)
 class Persona{
     constructor(nombre,apellido){
         this.nombre = nombre;
         this.apellido = apellido;
     }
 }
-
-console.log(typeof Persona);
+console.log(Persona);
 
 // Tipo undefined(indefinido)
 var x;
@@ -54,13 +48,13 @@ console.log(typeof x);
 
 // null: significa ausencia de valor
 var y = null; //null no es un tipo de dato pero su origen es de tipo object
-console.log(typeof y);
+console.log(y);
 
-// Tipo array y Empty String(arreglo y Empty cadena)
+// Tipo Array (arreglo) y Empty String (cadena vacia)
 var autos = ["Citroen","Audi","BMW","Ford"];
 console.log(autos);
 console.log(typeof autos);
 
-var z = '';
+var z = ''; // Es una cadena vacia
 console.log(z);
-console.log(typeof z);
+console.log(typeof z); // No es un tipo de dato en si mismo pero su origen es de tipo string

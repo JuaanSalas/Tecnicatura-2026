@@ -1,4 +1,4 @@
-// Ejercitacion: Meses del año con switch, simplificar y agregar eficacia con el concepto:
+// Ejercicio 1: Meses del año con switch, simplificar y agregar eficacia con el concepto:
 // Dry don't repeat yourself
 
 // Con switch
@@ -41,7 +41,7 @@ switch (month){
         month = "December";
         break
     default:
-        month = "Imvalid month number";
+        month = "Invalid month number";
 }
 console.log(month)
 
