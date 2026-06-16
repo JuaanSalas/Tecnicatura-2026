@@ -1,4 +1,3 @@
 # Ejercicio 1: Califica tu dia
-print("Como estuvo tu dia?")
-dia = input()
-print("Mi dia estuvo de", int(dia))
+dia = input("Como estuvo tu dia?\n")
+print("Mi dia estuvo: ", (dia))
